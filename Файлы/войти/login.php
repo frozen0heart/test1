@@ -1,15 +1,5 @@
 <?php
 
-
-
-
-
-
-
-
-
-
-
 $today = date("d.m.y", strtotime("+1 hours"));
 $time = date('H:i', strtotime("+1 hours"));
 
@@ -24,6 +14,7 @@ $login = $user->login;
 
 if ($id) {
 	$_SESSION['admin_id'] = $id;
+	$_SESSION['admin_login'] = $login;
 } else {
 	$error = "1";
 }
