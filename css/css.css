@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    text-shadow: 1px 0 1px #000,
+    0 1px 1px #000,
+    -1px 0 1px #000,
+    0 -1px 1px #000;
+    font-size: 25px; 
+    color: white; 
+    margin-top:10px; 
+    margin-bottom:10px
+}
+.btn-success {
+    font-weight: bold;
+}
+.btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+textarea {
+    resize: vertical;
+    max-height: 135px;
+}
+.form1 {
+    background: #FFFFFF;
+    border: 5px solid blue;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.avatar2 {
+    border-radius: 10px; /* Радиус скругления */
+    border: 1px solid white; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.image-upload>input {
+    display:none;
+}
+.avatar2:hover{
+    box-shadow:0 0 15px blue;
+    border:1px solid blue;
+    cursor: pointer;
+}
